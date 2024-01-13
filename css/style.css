@@ -1,0 +1,47 @@
+* {
+  
+    text-align: center;
+font-family: "mainfont";
+color: white;
+
+}
+
+h2,#au{
+    color: #f7a4ed;
+}
+@font-face{
+    font-family: "mainfont";
+    src: url(./Neucha-Regular.ttf);
+}
+
+button{
+    font-size: larger;
+    width: 150px;
+    height: 60px;
+   border: #ffffff solid 1px;
+   background-color: rgba(0, 0, 0, 0.275);
+}
+button:hover{
+    background-color: #f7a4ed50;
+}
+.outercolor{
+   background-image: linear-gradient(45deg, #360af9, #fc6423,#d61ca1,#72fc10,#2087da,#f7eb14);
+   animation: coloring 1s infinite alternate;
+   -webkit-animation: coloring 0.5s infinite alternate;
+ 
+}
+
+@keyframes coloring {
+   
+0%{
+    background-image: linear-gradient(90deg, #360af9, #fc6423,#d61ca1,#72fc10,#2087da,#f7eb14);
+}
+
+50%{
+    background-image: linear-gradient(135deg, #360af9, #fc6423,#d61ca1,#72fc10,#2087da,#f7eb14);
+}
+100%{  background-image: linear-gradient(180deg, #360af9, #fc6423,#d61ca1,#72fc10,#2087da,#f7eb14);
+
+}
+}
+  
